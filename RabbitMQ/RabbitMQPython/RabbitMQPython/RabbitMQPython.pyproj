@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5cc5d95a-4e63-4c70-8d27-be616d2f15d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HelloWorldReceive.py</StartupFile>
+    <StartupFile>WorkQueues_NewTask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,10 @@
   <ItemGroup>
     <Compile Include="HelloWorldReceive.py" />
     <Compile Include="HelloWorldSend.py" />
+    <Compile Include="WorkQueues_Worker.py" />
+    <Compile Include="WorkQueues_NewTask.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
